@@ -1,0 +1,46 @@
+{
+  "slug": "texas-roadhouse-rolls",
+  "name": "Texas Roadhouse rolls",
+  "category": "breads-and-rolls",
+  "description": "Soft, honey-sweet copycat dinner rolls, cut into squares and brushed with butter. Big batch of 24.",
+  "baked": false,
+  "makes": { "qty": 24, "unit": "rolls" },
+  "oven": "350°F",
+  "ingredients": [
+    { "id": "butter", "qty": 6, "unit": "tbsp", "name": "butter, cut into pieces" },
+    { "id": "honey", "qty": 0.5, "unit": "cup", "name": "honey" },
+    { "id": "milk", "qty": 1.5, "unit": "cup", "name": "2% or whole milk, scalded" },
+    { "id": "water", "qty": 1, "unit": "cup", "name": "water, room temperature" },
+    { "id": "yeast", "qty": 1.5, "unit": "tbsp", "name": "instant or active dry yeast" },
+    { "id": "eggs", "qty": 2, "name": "large eggs" },
+    { "id": "salt", "qty": 1, "unit": "tbsp", "name": "salt" },
+    { "id": "flour", "qty": 7.75, "unit": "cup", "name": "all-purpose or bread flour (up to 8 cups)" },
+    { "id": "brush-butter", "name": "melted butter, for brushing" }
+  ],
+  "steps": [
+    "Put the [butter](@butter) and [honey](@honey) in a stand mixer bowl with the dough hook. Pour in the scalded [milk](@milk), mix briefly, and let it sit until the butter is mostly melted.",
+    "Add the [water](@water) and let the mixture cool to 105 to 110°F.",
+    "Stir in the [yeast](@yeast) and let it sit 5 to 7 minutes, until bubbly and foamy.",
+    "Add the [eggs](@eggs), [salt](@salt) and [2 to 3 cups of flour](@flour:2.5). Mix on medium-low, adding the [rest of the flour](@flour:5.25) a little at a time until the dough pulls away from the sides. It should be soft and a little sticky, not stiff.",
+    "Knead on medium for 4 to 5 minutes. Add more flour only if the dough is very sticky and clings to the bowl.",
+    "Cover and let the dough rise until doubled.",
+    "Turn it out onto a lightly greased surface and pat or roll it into a rectangle about 15 by 10 inches, ½ to ¾ inch thick.",
+    "Cut into 24 squares or rectangles. Uneven pieces are fine.",
+    "Line two half sheet pans with lightly greased parchment. Set the rolls about ½ inch apart, 12 per pan.",
+    "Cover and let rise 60 to 90 minutes, until puffy or doubled.",
+    "Bake at 350°F for 18 to 22 minutes, until the tops and bottoms are lightly golden.",
+    "Brush the tops generously with [melted butter](@brush-butter) right out of the oven."
+  ],
+  "tips": [
+    "To scald milk, heat it until it steams and small bubbles form at the edge, just short of boiling. It helps make the rolls light.",
+    "No thermometer? The liquid should feel like warm bath water, not hot, before the yeast goes in.",
+    "Use 2% or whole milk, not skim.",
+    "Don't overflour. Mel used about 7¾ cups; stop once the dough is soft and just slightly sticky.",
+    "Swapping the honey for sugar? Use a little less flour.",
+    "Let the second rise go all the way for the fluffiest rolls.",
+    "A pizza wheel makes cutting easy. Trim any oversized rolls to even them out.",
+    "Cinnamon honey butter to serve: mix ½ cup salted butter, ¼ cup honey, ½ tsp cinnamon and about ¼ tsp vanilla until creamy."
+  ],
+  "attempts": [],
+  "source": "https://www.melskitchencafe.com/copycat-texas-roadhouse-rolls/"
+}
