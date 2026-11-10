@@ -1,0 +1,40 @@
+{
+  "slug": "snickerdoodles",
+  "name": "Snickerdoodles",
+  "category": "cookies",
+  "description": "Soft cookies rolled in cinnamon sugar, with a little tang.",
+  "baked": true,
+  "ingredients": [
+    {
+      "id": "butter",
+      "qty": 1,
+      "unit": "cup",
+      "name": "butter, softened"
+    },
+    {
+      "id": "sugar",
+      "qty": 1.5,
+      "unit": "cup",
+      "name": "sugar"
+    },
+    {
+      "id": "cinnamon",
+      "qty": 1,
+      "unit": "tbsp",
+      "name": "cinnamon"
+    }
+  ],
+  "steps": [
+    "Cream the [butter](@butter) and [sugar](@sugar:1.25).",
+    "Roll balls in the rest of the [sugar](@sugar:0.25) mixed with [cinnamon](@cinnamon)."
+  ],
+  "tips": [],
+  "attempts": [
+    {
+      "n": 1,
+      "grade": "A",
+      "notes": "Perfect."
+    }
+  ],
+  "crowdRating": 4
+}

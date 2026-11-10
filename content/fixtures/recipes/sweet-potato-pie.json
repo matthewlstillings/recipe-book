@@ -1,0 +1,27 @@
+{
+  "slug": "sweet-potato-pie",
+  "name": "Sweet potato pie",
+  "category": "pies",
+  "description": "Brown butter black bottom pie with a silky spiced filling.",
+  "baked": false,
+  "ingredients": [
+    {
+      "id": "brown-butter",
+      "qty": 0.5,
+      "unit": "cup",
+      "name": "brown butter"
+    },
+    {
+      "id": "sweet-potato",
+      "qty": 2,
+      "unit": "cup",
+      "name": "mashed sweet potato"
+    }
+  ],
+  "steps": [
+    "Whisk the [sweet potato](@sweet-potato) with the [brown butter](@brown-butter)."
+  ],
+  "tips": [],
+  "attempts": [],
+  "crowdRating": 5
+}

@@ -1,0 +1,33 @@
+{
+  "slug": "oatmeal-raisin",
+  "name": "Oatmeal raisin",
+  "category": "cookies",
+  "description": "Chewy oat cookies with plump raisins and a hint of cinnamon.",
+  "baked": true,
+  "ingredients": [
+    {
+      "id": "oats",
+      "qty": 3,
+      "unit": "cup",
+      "name": "rolled oats"
+    },
+    {
+      "id": "raisins",
+      "qty": 1,
+      "unit": "cup",
+      "name": "raisins"
+    }
+  ],
+  "steps": [
+    "Mix the [oats](@oats) and [raisins](@raisins)."
+  ],
+  "tips": [],
+  "attempts": [
+    {
+      "n": 1,
+      "grade": "C",
+      "notes": "Dry."
+    }
+  ],
+  "crowdRating": 3
+}

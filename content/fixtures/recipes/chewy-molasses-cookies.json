@@ -1,0 +1,20 @@
+{
+  "slug": "chewy-molasses-cookies",
+  "name": "Chewy molasses cookies",
+  "category": "cookies",
+  "description": "Warm spiced cookies, soft inside with a crackly sugar top.",
+  "baked": false,
+  "ingredients": [
+    {
+      "id": "molasses",
+      "qty": 0.25,
+      "unit": "cup",
+      "name": "molasses"
+    }
+  ],
+  "steps": [
+    "Stir in the [molasses](@molasses)."
+  ],
+  "tips": [],
+  "attempts": []
+}

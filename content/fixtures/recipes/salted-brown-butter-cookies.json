@@ -1,0 +1,26 @@
+{
+  "slug": "salted-brown-butter-cookies",
+  "name": "Salted brown butter cookies",
+  "category": "cookies",
+  "description": "Toffee-like brown butter cookies finished with flaky salt.",
+  "baked": false,
+  "ingredients": [
+    {
+      "id": "butter",
+      "qty": 1,
+      "unit": "cup",
+      "name": "butter"
+    },
+    {
+      "id": "salt",
+      "name": "flaky salt, to finish"
+    }
+  ],
+  "steps": [
+    "Brown the [butter](@butter).",
+    "Finish with [flaky salt](@salt)."
+  ],
+  "tips": [],
+  "attempts": [],
+  "crowdRating": 5
+}

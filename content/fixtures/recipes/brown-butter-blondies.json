@@ -1,0 +1,27 @@
+{
+  "slug": "brown-butter-blondies",
+  "name": "Brown butter blondies",
+  "category": "bars",
+  "description": "Fudgy blondies with deep caramel flavor.",
+  "baked": true,
+  "ingredients": [
+    {
+      "id": "butter",
+      "qty": 0.5,
+      "unit": "cup",
+      "name": "butter, browned"
+    }
+  ],
+  "steps": [
+    "Brown the [butter](@butter)."
+  ],
+  "tips": [],
+  "attempts": [
+    {
+      "n": 1,
+      "grade": "A-",
+      "notes": "Great."
+    }
+  ],
+  "crowdRating": 5
+}

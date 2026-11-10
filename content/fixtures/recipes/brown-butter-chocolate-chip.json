@@ -1,0 +1,40 @@
+{
+  "slug": "brown-butter-chocolate-chip",
+  "name": "Brown butter chocolate chip cookies",
+  "category": "cookies",
+  "description": "Nutty brown butter dough with pools of chocolate. Chewy middles, crisp edges.",
+  "crowdRating": 4,
+  "baked": true,
+  "makes": { "qty": 24, "unit": "cookies" },
+  "time": "1 hr 15 min",
+  "oven": "350°F",
+  "ingredients": [
+    { "id": "butter", "qty": 1, "unit": "cup", "name": "butter, browned and cooled" },
+    { "id": "brown-sugar", "qty": 1, "unit": "cup", "name": "brown sugar, packed" },
+    { "id": "white-sugar", "qty": 0.5, "unit": "cup", "name": "white sugar" },
+    { "id": "eggs", "qty": 2, "name": "large eggs" },
+    { "id": "vanilla", "qty": 2, "unit": "tsp", "name": "vanilla" },
+    { "id": "flour", "qty": 2.25, "unit": "cup", "name": "flour" },
+    { "id": "baking-soda", "qty": 1, "unit": "tsp", "name": "baking soda" },
+    { "id": "salt", "qty": 1, "unit": "tsp", "name": "salt" },
+    { "id": "chips", "qty": 1.5, "unit": "cup", "name": "chocolate chips" }
+  ],
+  "steps": [
+    "Brown the [butter](@butter) until it smells nutty. Cool it for 15 minutes.",
+    "Whisk the [butter](@butter) with the [brown sugar](@brown-sugar) and [white sugar](@white-sugar) until smooth.",
+    "Beat in the [eggs](@eggs) and [vanilla](@vanilla).",
+    "Stir in the [flour](@flour), [baking soda](@baking-soda) and [salt](@salt).",
+    "Fold in most of the [chocolate chips](@chips:1.25), then chill the dough for at least an hour.",
+    "Scoop the dough, press the rest of the [chocolate chips](@chips:0.25) on top, and bake at 350°F for 10 to 12 minutes."
+  ],
+  "tips": [
+    "Chilling overnight gives a deeper toffee flavor.",
+    "Pull them while the middles still look a little soft.",
+    "A pinch of flaky salt on top before baking."
+  ],
+  "attempts": [
+    { "n": 1, "grade": "B", "notes": "Good flavor but too sweet. Cut the white sugar next time." },
+    { "n": 2, "grade": "C", "notes": "Spread too much. The butter was still warm." },
+    { "n": 3, "grade": "B+", "notes": "Chilled overnight. Much thicker. Still a little flat in the middle, try a bit more flour." }
+  ]
+}

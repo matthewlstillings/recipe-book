@@ -1,0 +1,8 @@
+[
+  { "slug": "cookies", "name": "Cookies" },
+  { "slug": "pies", "name": "Pies" },
+  { "slug": "breads-and-rolls", "name": "Breads and rolls" },
+  { "slug": "cakes", "name": "Cakes" },
+  { "slug": "bars", "name": "Bars" },
+  { "slug": "savory", "name": "Savory" }
+]
