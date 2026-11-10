@@ -4,7 +4,7 @@ A public, read-only recipe book. There are no logins and no forms. Recipes and a
 
 - **Design:** see [DESIGN.md](DESIGN.md).
 - **Stack:** Next.js (App Router, fully static pages), no database, no environment variables.
-- **Hosting:** Vercel, at `recipes.junk-drawer.dev`. Search engines are told not to index it.
+- **Hosting:** Vercel, at `queerdough.junk-drawer.dev`. Search engines are told not to index it.
 
 ## Adding a recipe
 
