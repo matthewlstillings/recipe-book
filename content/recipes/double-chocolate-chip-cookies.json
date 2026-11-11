@@ -1,0 +1,47 @@
+{
+  "slug": "double-chocolate-chip-cookies",
+  "name": "Double chocolate chip cookies",
+  "category": "cookies",
+  "description": "Thick, soft cocoa cookies loaded with chocolate chips. The dough needs at least 3 hours in the fridge.",
+  "baked": false,
+  "makes": { "qty": 21, "unit": "cookies" },
+  "time": "3 hr 30 min",
+  "oven": "350°F",
+  "ingredients": [
+    { "id": "butter", "qty": 0.5, "unit": "cup", "name": "unsalted butter, softened" },
+    { "id": "sugar", "qty": 0.5, "unit": "cup", "name": "granulated sugar" },
+    { "id": "brown-sugar", "qty": 0.5, "unit": "cup", "name": "packed light or dark brown sugar" },
+    { "id": "egg", "qty": 1, "name": "large egg, room temperature" },
+    { "id": "vanilla", "qty": 1, "unit": "tsp", "name": "pure vanilla extract" },
+    { "id": "flour", "qty": 1, "unit": "cup", "name": "all-purpose flour, spooned and leveled" },
+    { "id": "cocoa", "qty": 0.6667, "unit": "cup", "name": "natural unsweetened cocoa powder (not Dutch-process)" },
+    { "id": "baking-soda", "qty": 1, "unit": "tsp", "name": "baking soda" },
+    { "id": "salt", "qty": 0.125, "unit": "tsp", "name": "salt" },
+    { "id": "milk", "qty": 1, "unit": "tbsp", "name": "milk, any kind" },
+    { "id": "chips", "qty": 1.25, "unit": "cup", "name": "semi-sweet chocolate chips" },
+    { "id": "topping-chips", "name": "a few extra chocolate chips, for the tops (optional)" }
+  ],
+  "steps": [
+    "Beat the [butter](@butter), [sugar](@sugar) and [brown sugar](@brown-sugar) on medium-high for about 3 minutes, until light and fluffy. Beat in the [egg](@egg) and [vanilla](@vanilla), scraping the bowl as needed.",
+    "Whisk the [flour](@flour), [cocoa](@cocoa), [baking soda](@baking-soda) and [salt](@salt) in another bowl. Add to the wet ingredients on low and mix until combined. The dough will be thick.",
+    "On high, beat in the [milk](@milk), then the [chocolate chips](@chips). The dough will be sticky.",
+    "Cover tightly and chill at least 3 hours, up to 3 days. Overnight is best, and colder dough makes thicker cookies.",
+    "Let the dough sit out 10 minutes (about 20 if chilled longer than 3 hours) so it's easier to scoop.",
+    "Heat the oven to 350°F and line baking sheets with parchment or silicone mats.",
+    "Scoop heaping 1½ tablespoon (35 to 40 g) balls and roll them taller than they are wide. Space them 2 to 3 inches apart.",
+    "Bake 11 to 12 minutes, until the edges look set and the centers still look soft. If they haven't spread by minute 9, bang the pan on the counter 2 or 3 times and keep baking.",
+    "Cool 5 minutes on the sheet. Press a few [extra chips](@topping-chips) into the warm tops if you like, then move to a rack. They flatten a little as they cool."
+  ],
+  "tips": [
+    "Use natural cocoa, not Dutch-process. The baking soda needs its acid, and Dutch cocoa can make the cookies dense or lose shape.",
+    "The spoonful of milk keeps the cocoa from drying the cookies out.",
+    "Butter should be cool to the touch, around 65°F. Too cold won't cream; too soft makes messy cookies.",
+    "Shape the balls tall, like little columns, to keep the cookies thick.",
+    "Done when the edge feels slightly set if you tap it. Soft-looking centers are normal.",
+    "Swap the chips for the same amount of peanut butter chips, white chocolate, M&Ms, nuts or butterscotch.",
+    "Doubles easily in one bowl. Dough balls freeze up to 3 months; bake from frozen and add about a minute."
+  ],
+  "attempts": [],
+  "added": "2026-11-11T01:52:01Z",
+  "source": "https://sallysbakingaddiction.com/double-chocolate-chip-cookies-recipe/"
+}

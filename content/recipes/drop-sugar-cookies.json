@@ -1,0 +1,42 @@
+{
+  "slug": "drop-sugar-cookies",
+  "name": "Drop sprinkle sugar cookies",
+  "category": "cookies",
+  "description": "Soft, buttery vanilla sugar cookies packed with sprinkles. No rolling or cutting, just scoop, chill and bake.",
+  "baked": false,
+  "makes": { "qty": 15, "unit": "cookies" },
+  "time": "2 hr 45 min",
+  "oven": "350°F",
+  "ingredients": [
+    { "id": "flour", "qty": 1.5, "unit": "cup", "name": "all-purpose flour, spooned and leveled" },
+    { "id": "baking-powder", "qty": 1.5, "unit": "tsp", "name": "baking powder" },
+    { "id": "salt", "qty": 0.25, "unit": "tsp", "name": "salt" },
+    { "id": "butter", "qty": 0.5, "unit": "cup", "name": "unsalted butter, softened" },
+    { "id": "sugar", "qty": 0.75, "unit": "cup", "name": "granulated sugar" },
+    { "id": "egg", "qty": 1, "name": "large egg, room temperature" },
+    { "id": "vanilla", "qty": 1, "unit": "tsp", "name": "pure vanilla extract" },
+    { "id": "sprinkles", "qty": 0.5, "unit": "cup", "name": "sprinkles (not nonpareils)" },
+    { "id": "topping-sprinkles", "name": "extra sprinkles, for the tops" }
+  ],
+  "steps": [
+    "Whisk the [flour](@flour), [baking powder](@baking-powder) and [salt](@salt) in a medium bowl. Set aside.",
+    "Beat the [butter](@butter) and [sugar](@sugar) on medium-high for about 1 minute, until creamy. Add the [egg](@egg) and [vanilla](@vanilla) and beat on high for about 1 minute, scraping the bowl as needed.",
+    "Add the dry ingredients and mix on low until combined. Stir in the [sprinkles](@sprinkles). The dough will be thick and sticky.",
+    "Roll 2 tablespoon (40 g) balls of dough. Dip the tops in [extra sprinkles](@topping-sprinkles) if you like, and set them on a plate or lined sheet.",
+    "Cover and chill the dough balls for at least 2 hours, up to 4 days.",
+    "Heat the oven to 350°F and line baking sheets with parchment or silicone mats.",
+    "Set the cold dough balls 3 inches apart. Bake 12 to 13 minutes, until the edges are lightly browned. The centers will look very soft.",
+    "Cool 5 minutes on the sheet, then move to a rack to cool completely."
+  ],
+  "tips": [
+    "Don't skip the chill. It stops the cookies from spreading too much.",
+    "Roll the dough into balls before chilling, because it gets hard after a couple of hours in the fridge.",
+    "Any sprinkles work except nonpareils, which can bleed color into the dough. Leave them out for plain sugar cookies.",
+    "A little almond extract adds extra flavor.",
+    "Dough balls freeze for up to 3 months. Bake from frozen and add about a minute.",
+    "Keeps covered at room temperature for up to a week."
+  ],
+  "attempts": [],
+  "added": "2026-11-11T01:52:00Z",
+  "source": "https://sallysbakingaddiction.com/drop-sugar-cookies/"
+}
