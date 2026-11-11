@@ -4,18 +4,63 @@
   "category": "breads-and-rolls",
   "description": "Soft, honey-sweet copycat dinner rolls, cut into squares and brushed with butter. Big batch of 24.",
   "baked": false,
-  "makes": { "qty": 24, "unit": "rolls" },
+  "makes": {
+    "qty": 24,
+    "unit": "rolls"
+  },
   "oven": "350°F",
   "ingredients": [
-    { "id": "butter", "qty": 6, "unit": "tbsp", "name": "butter, cut into pieces" },
-    { "id": "honey", "qty": 0.5, "unit": "cup", "name": "honey" },
-    { "id": "milk", "qty": 1.5, "unit": "cup", "name": "2% or whole milk, scalded" },
-    { "id": "water", "qty": 1, "unit": "cup", "name": "water, room temperature" },
-    { "id": "yeast", "qty": 1.5, "unit": "tbsp", "name": "instant or active dry yeast" },
-    { "id": "eggs", "qty": 2, "name": "large eggs" },
-    { "id": "salt", "qty": 1, "unit": "tbsp", "name": "salt" },
-    { "id": "flour", "qty": 7.75, "unit": "cup", "name": "all-purpose or bread flour (up to 8 cups)" },
-    { "id": "brush-butter", "name": "melted butter, for brushing" }
+    {
+      "id": "butter",
+      "qty": 6,
+      "unit": "tbsp",
+      "name": "butter, cut into pieces"
+    },
+    {
+      "id": "honey",
+      "qty": 0.5,
+      "unit": "cup",
+      "name": "honey"
+    },
+    {
+      "id": "milk",
+      "qty": 1.5,
+      "unit": "cup",
+      "name": "2% or whole milk, scalded"
+    },
+    {
+      "id": "water",
+      "qty": 1,
+      "unit": "cup",
+      "name": "water, room temperature"
+    },
+    {
+      "id": "yeast",
+      "qty": 1.5,
+      "unit": "tbsp",
+      "name": "instant or active dry yeast"
+    },
+    {
+      "id": "eggs",
+      "qty": 2,
+      "name": "large eggs"
+    },
+    {
+      "id": "salt",
+      "qty": 1,
+      "unit": "tbsp",
+      "name": "salt"
+    },
+    {
+      "id": "flour",
+      "qty": 7.75,
+      "unit": "cup",
+      "name": "all-purpose or bread flour (up to 8 cups)"
+    },
+    {
+      "id": "brush-butter",
+      "name": "melted butter, for brushing"
+    }
   ],
   "steps": [
     "Put the [butter](@butter) and [honey](@honey) in a stand mixer bowl with the dough hook. Pour in the scalded [milk](@milk), mix briefly, and let it sit until the butter is mostly melted.",
@@ -42,5 +87,6 @@
     "Cinnamon honey butter to serve: mix ½ cup salted butter, ¼ cup honey, ½ tsp cinnamon and about ¼ tsp vanilla until creamy."
   ],
   "attempts": [],
+  "added": "2026-11-10T17:46:06Z",
   "source": "https://www.melskitchencafe.com/copycat-texas-roadhouse-rolls/"
 }

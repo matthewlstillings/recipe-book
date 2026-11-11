@@ -48,6 +48,8 @@ export type Recipe = {
   steps: string[];
   tips: string[];
   attempts: Attempt[];
+  /** When it was added, like "2026-11-10T17:46:00Z". Orders "Recently added"; not shown. */
+  added?: string;
   /** Where the recipe came from. Kept for reference, not shown. */
   source?: string;
 };

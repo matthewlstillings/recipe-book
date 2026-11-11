@@ -32,6 +32,7 @@ Add one file per recipe at `content/recipes/<slug>.json`. The file name must mat
   ],
   "tips": ["Chilling overnight gives a deeper toffee flavor."],
   "attempts": [{ "n": 1, "grade": "B+", "notes": "Thick and chewy." }],
+  "added": "2026-11-10T17:46:00Z",
   "source": "https://example.com/the-original-recipe"
 }
 ```
@@ -44,6 +45,7 @@ Field rules:
 - **steps:** mark every ingredient a step uses as `[words](@id)`. When the step uses only part of it, add the 1x amount: `[words](@id:1.25)`.
 - **attempts:** `n` counts up from 1. `grade` is one of A+ A A- B+ B B- C+ C C- D+ D D- F. No dates.
 - **baked:** set to `true` once there's a first attempt.
+- **added:** when the recipe was added, as an ISO date and time. The three newest show under "Recently added" on the home page. Not shown anywhere else.
 - **source:** kept for reference, not shown on the site.
 
 Categories live in `content/categories.json`. Their order is the order on the home page.

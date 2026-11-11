@@ -41,6 +41,7 @@ A `#8cbf74`, B `#e8c766`, C `#f2a65a`, D `#ef8f5a`, F `#ec7a78`.
 - Page padding `20px clamp(16px, 5vw, 64px) 64px`, content max width 1240px.
 - Cards: radius 10px, no shadow. The dialog is the only thing with a shadow.
 - Grids reflow from 1 column (phone) to 2 (tablet) to 3 (desktop) with `auto-fit, minmax(min(100%, 300px), 1fr)`.
+- Home: "Recently added" (the 3 newest recipes as list rows) on top, then categories. Categories with no recipes are hidden.
 - A faint paper grain sits over the page at 9% opacity.
 
 ## Components

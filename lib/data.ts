@@ -28,6 +28,7 @@ function check(file: string, r: Recipe, categories: Set<string>) {
   need(r.description.length <= 120, 'description should be one short line (120 characters max)');
   need(r.crowdRating === undefined || (Number.isInteger(r.crowdRating) && r.crowdRating >= 1 && r.crowdRating <= 5), 'crowdRating must be 1 to 5');
   need(typeof r.baked === 'boolean', 'baked must be true or false');
+  need(r.added === undefined || (typeof r.added === 'string' && !Number.isNaN(Date.parse(r.added))), 'added must be a date like 2026-11-10T17:46:00Z');
   need(Array.isArray(r.ingredients) && r.ingredients.length > 0, 'ingredients are required');
   need(Array.isArray(r.steps) && r.steps.length > 0, 'steps are required');
   need(Array.isArray(r.tips), 'tips must be a list (can be empty)');
@@ -101,4 +102,10 @@ export function getCategory(slug: string): Category | undefined {
 /** Best crowd rating first, unrated last, then by name. */
 export function byRating(a: Recipe, b: Recipe): number {
   return (b.crowdRating ?? 0) - (a.crowdRating ?? 0) || a.name.localeCompare(b.name);
+}
+
+/** Most recently added first; recipes with no added date go last. */
+export function byNewest(a: Recipe, b: Recipe): number {
+  const t = (r: Recipe) => (r.added ? Date.parse(r.added) : 0);
+  return t(b) - t(a) || a.name.localeCompare(b.name);
 }
