@@ -82,6 +82,7 @@ a { color: inherit; }
   padding: 20px clamp(16px, 5vw, 64px) 64px;
 }
 .wrap {
+  width: 100%;
   max-width: 1240px;
   margin: 0 auto;
   display: flex;
