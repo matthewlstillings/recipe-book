@@ -39,6 +39,7 @@ function check(file: string, r: Recipe, categories: Set<string>) {
     need(!ids.has(ing.id), `ingredient id "${ing.id}" is used twice`);
     need(ing.qty === undefined || (typeof ing.qty === 'number' && ing.qty > 0), `ingredient "${ing.id}" qty must be a positive number`);
     need(typeof ing.name === 'string' && ing.name.trim(), `ingredient "${ing.id}" needs a name`);
+    need(ing.grams === undefined || (typeof ing.grams === 'number' && ing.grams > 0 && ing.qty !== undefined), `ingredient "${ing.id}" grams must be a positive number, and it needs a qty`);
     ids.set(ing.id, ing.qty);
   }
   r.steps.forEach((step, i) => {

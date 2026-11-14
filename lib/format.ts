@@ -49,6 +49,15 @@ export function formatNumber(n: number, unit = ''): string {
   return (whole ? String(whole) : '') + best[1];
 }
 
+/**
+ * Grams for part of an ingredient, using its 1x weight: (2.5 cups of a
+ * 7.75-cup, 930 g ingredient) -> "300 g". Empty when it has no weight.
+ */
+export function formatGrams(amount: number, qty: number | undefined, grams: number | undefined): string {
+  if (grams === undefined || !qty) return '';
+  return formatQty((grams * amount) / qty, 'g');
+}
+
 /** Formats an amount with its unit: (1.5, "cup") -> "1½ cups". */
 export function formatQty(qty: number | undefined, unit = ''): string {
   if (qty === undefined) return unit;

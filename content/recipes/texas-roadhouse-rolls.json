@@ -38,6 +38,7 @@
       "id": "yeast",
       "qty": 1.5,
       "unit": "tbsp",
+      "grams": 14,
       "name": "instant or active dry yeast"
     },
     {
@@ -49,13 +50,15 @@
       "id": "salt",
       "qty": 1,
       "unit": "tbsp",
-      "name": "salt"
+      "grams": 18,
+      "name": "table salt"
     },
     {
       "id": "flour",
       "qty": 7.75,
       "unit": "cup",
-      "name": "all-purpose or bread flour (up to 8 cups)"
+      "grams": 930,
+      "name": "all-purpose or bread flour (up to 8 cups / 960 g)"
     },
     {
       "id": "brush-butter",
@@ -84,7 +87,8 @@
     "Swapping the honey for sugar? Use a little less flour.",
     "Let the second rise go all the way for the fluffiest rolls.",
     "A pizza wheel makes cutting easy. Trim any oversized rolls to even them out.",
-    "Cinnamon honey butter to serve: mix ½ cup salted butter, ¼ cup honey, ½ tsp cinnamon and about ¼ tsp vanilla until creamy."
+    "Cinnamon honey butter to serve: mix ½ cup salted butter, ¼ cup honey, ½ tsp cinnamon and about ¼ tsp vanilla until creamy.",
+    "Gram weights use King Arthur's chart: 120 g per cup of flour, 6 g per tsp of table salt, about 3 g per tsp of yeast. Kosher salt is lighter by volume, so weigh it if you use it."
   ],
   "attempts": [],
   "added": "2026-11-10T17:46:06Z",

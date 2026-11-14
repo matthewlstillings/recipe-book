@@ -3,7 +3,7 @@
 import { useEffect, useLayoutEffect, useRef, useState } from 'react';
 import type { Ingredient } from '@/lib/types';
 import type { StepPart } from '@/lib/steps';
-import { formatQty } from '@/lib/format';
+import { formatGrams, formatQty } from '@/lib/format';
 
 type Props = {
   steps: StepPart[][];
@@ -52,12 +52,16 @@ export default function Steps({ steps, ingredients, scale }: Props) {
               if (!ing) return <span key={pi}>{p.text}</span>;
               const key = `${si}-${pi}`;
               const whole = p.amount === undefined || p.amount === ing.qty;
+              const withGrams = (n: number) => {
+                const g = formatGrams(n, ing.qty, ing.grams);
+                return formatQty(n, ing.unit) + (g ? ` (${g})` : '');
+              };
               const amount = ing.qty === undefined
                 ? formatQty(undefined, ing.unit) || 'As needed'
-                : formatQty((whole ? ing.qty : p.amount!) * scale, ing.unit);
+                : withGrams((whole ? ing.qty : p.amount!) * scale);
               const note = ing.qty === undefined
                 ? ing.name
-                : whole ? 'All of it' : `of ${formatQty(ing.qty * scale, ing.unit)} total`;
+                : whole ? 'All of it' : `of ${withGrams(ing.qty * scale)} total`;
               return (
                 <Mention
                   key={pi}

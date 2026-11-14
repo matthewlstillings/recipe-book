@@ -17,6 +17,8 @@ export type Ingredient = {
   qty?: number;
   /** Unit like "cup", "tsp", "g". Leave empty for a count, like 2 eggs. */
   unit?: string;
+  /** Weight in grams of the 1x qty, for dry ingredients. Scales with qty. */
+  grams?: number;
   /** What shows in the list, like "butter, browned and cooled". */
   name: string;
 };

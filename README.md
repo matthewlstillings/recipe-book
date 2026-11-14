@@ -42,6 +42,7 @@ Field rules:
 - **description:** one short line, 120 characters max. Write it in your own words when adding the recipe.
 - **crowdRating:** Matthew's guess at how much others liked it, 1 to 5. Leave it out until he gives one.
 - **ingredients:** amounts are for a 1x batch. The site scales them up to 6x. `unit` is left out for counts (2 eggs), and `qty` is left out for things like "to taste".
+- **grams:** optional weight of the 1x `qty`, for dry ingredients (King Arthur's ingredient weight chart). Shows under the amount and in step popovers, and scales with the batch.
 - **steps:** mark every ingredient a step uses as `[words](@id)`. When the step uses only part of it, add the 1x amount: `[words](@id:1.25)`.
 - **attempts:** `n` counts up from 1. `grade` is one of A+ A A- B+ B B- C+ C C- D+ D D- F. No dates.
 - **baked:** set to `true` once there's a first attempt.
