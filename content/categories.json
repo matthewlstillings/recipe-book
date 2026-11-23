@@ -1,6 +1,7 @@
 [
   { "slug": "cookies", "name": "Cookies" },
   { "slug": "pies", "name": "Pies" },
+  { "slug": "puddings", "name": "Puddings" },
   { "slug": "breads-and-rolls", "name": "Breads and rolls" },
   { "slug": "cakes", "name": "Cakes" },
   { "slug": "bars", "name": "Bars" },

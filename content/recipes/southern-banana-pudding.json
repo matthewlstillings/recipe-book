@@ -1,0 +1,103 @@
+{
+  "slug": "southern-banana-pudding",
+  "name": "Southern banana pudding",
+  "category": "puddings",
+  "description": "Old-fashioned banana pudding: stovetop vanilla custard over wafers and bananas, under a toasted meringue.",
+  "baked": false,
+  "oven": "350°F",
+  "ingredients": [
+    {
+      "id": "sugar",
+      "qty": 1,
+      "unit": "cup",
+      "grams": 200,
+      "name": "granulated sugar, for the pudding"
+    },
+    {
+      "id": "flour",
+      "qty": 0.5,
+      "unit": "cup",
+      "grams": 62.5,
+      "name": "all-purpose flour"
+    },
+    {
+      "id": "salt",
+      "qty": 0.25,
+      "unit": "tsp",
+      "name": "kosher salt"
+    },
+    {
+      "id": "milk",
+      "qty": 3.5,
+      "unit": "cup",
+      "name": "whole milk, divided"
+    },
+    {
+      "id": "egg-yolks",
+      "qty": 8,
+      "name": "egg yolks (save the whites for the meringue)"
+    },
+    {
+      "id": "butter",
+      "qty": 1,
+      "unit": "tbsp",
+      "name": "unsalted butter"
+    },
+    {
+      "id": "vanilla",
+      "qty": 1.5,
+      "unit": "tsp",
+      "name": "vanilla extract"
+    },
+    {
+      "id": "wafers",
+      "qty": 11,
+      "unit": "ounce",
+      "name": "vanilla wafers"
+    },
+    {
+      "id": "bananas",
+      "qty": 6,
+      "name": "medium bananas, sliced ½ inch thick"
+    },
+    {
+      "id": "egg-whites",
+      "qty": 8,
+      "name": "egg whites"
+    },
+    {
+      "id": "cream-of-tartar",
+      "qty": 1,
+      "unit": "tsp",
+      "name": "cream of tartar"
+    },
+    {
+      "id": "meringue-sugar",
+      "qty": 1.3333,
+      "unit": "cup",
+      "grams": 266.67,
+      "name": "granulated sugar, for the meringue"
+    }
+  ],
+  "steps": [
+    "Heat the oven to 350°F.",
+    "Whisk the [sugar](@sugar), [flour](@flour) and [salt](@salt) in a medium bowl. Whisk in [½ cup of the milk](@milk:0.5) and the [egg yolks](@egg-yolks).",
+    "Heat the [rest of the milk](@milk:3) in a large saucepan over medium heat until it simmers.",
+    "Slowly whisk about a third of the hot milk into the egg mixture to warm it, then whisk it all back into the saucepan.",
+    "Bring it to a boil over medium heat, stirring constantly, and cook about 3 minutes more, until thick.",
+    "Take it off the heat and stir in the [butter](@butter) and [vanilla](@vanilla) until the butter melts. Let it cool slightly.",
+    "Cover the bottom of a 9 by 13 inch baking dish with [vanilla wafers](@wafers), keeping a few back for the top if you like. Layer the [banana slices](@bananas) over them.",
+    "Pour the pudding through a fine-mesh sieve over the bananas and spread it evenly.",
+    "Beat the [egg whites](@egg-whites) and [cream of tartar](@cream-of-tartar) on high until soft peaks form. Add the [sugar](@meringue-sugar) a little at a time and beat to stiff peaks.",
+    "Spread the meringue over the pudding all the way to the edges of the dish.",
+    "Bake 10 to 15 minutes, until the meringue is lightly browned. Top with the saved wafers if you like, and let it cool 10 minutes before serving."
+  ],
+  "tips": [
+    "Use bananas that are ripe but not very ripe. Very ripe ones break down too much in the oven.",
+    "The wafers are one 11 oz box per batch.",
+    "Good served warm or chilled."
+  ],
+  "attempts": [],
+  "added": "2026-11-23T03:28:23Z",
+  "source": "https://www.browneyedbaker.com/traditional-southern-banana-pudding/"
+}
