@@ -51,6 +51,10 @@ Field rules:
 
 Categories live in `content/categories.json`. Their order is the order on the home page.
 
+## Baking tips
+
+Tips live in `content/tips.json`, grouped by section, and show on `/tips` in that order. Each tip has an `id` (used as its anchor, like `/tips#scalding-milk`), a `term`, a short plain-words `body`, and `keywords` that the tips search also matches but doesn't show. Keep tips to standard, accurate advice.
+
 ## Local development
 
 ```bash

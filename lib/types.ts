@@ -55,3 +55,17 @@ export type Recipe = {
   /** Where the recipe came from. Kept for reference, not shown. */
   source?: string;
 };
+
+export type Tip = {
+  /** Anchor id, like "scalding-milk". Links as /tips#scalding-milk. */
+  id: string;
+  term: string;
+  /** Extra words the tips search matches, like "scald". Not shown. */
+  keywords: string[];
+  body: string;
+};
+
+export type TipSection = {
+  section: string;
+  tips: Tip[];
+};

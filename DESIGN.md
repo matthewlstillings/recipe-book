@@ -54,4 +54,6 @@ A `#8cbf74`, B `#e8c766`, C `#f2a65a`, D `#ef8f5a`, F `#ec7a78`.
 - **Baked switch:** 38x22, green when on. It is the only baked indicator on the Recipe page.
 - **Ingredient mention:** tinted and underlined word in a step. Tapping it opens a dark popover with the amount for that step, scaled to the batch.
 - **Focus ring:** 2px outline, 3px offset. `--highlight` on the page, `--ink` on paper.
+- **Site nav:** a "Tips" link beside the logo on every page, styled as a label in `--page-muted`, underlined when it's the current page.
+- **Tips page (/tips):** its own tips search pill under the title (not the header recipe search), then one paper card per section with a serif term and a plain body per tip. Each tip has an anchor, like /tips#scalding-milk. Content column max 820px.
 - **Back navigation:** none on screen. The browser or phone back button does it.

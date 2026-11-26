@@ -1,0 +1,200 @@
+[
+  {
+    "section": "Yeast and milk",
+    "tips": [
+      {
+        "id": "scalding-milk",
+        "term": "Scalding milk",
+        "keywords": ["scald", "scalded", "milk", "heat milk"],
+        "body": "Heat milk over medium-low, stirring, until it steams and small bubbles form around the edge, about 180°F. Don't let it boil. Let it cool to about 110°F before any yeast goes in."
+      },
+      {
+        "id": "lukewarm-liquid",
+        "term": "Lukewarm or warm liquid",
+        "keywords": ["lukewarm", "warm water", "warm milk", "temperature", "105", "110"],
+        "body": "For yeast, aim for about 100 to 110°F. It should feel like warm bath water on your wrist. Liquid much hotter than about 130°F starts to kill yeast."
+      },
+      {
+        "id": "blooming-yeast",
+        "term": "Blooming (proofing) yeast",
+        "keywords": ["bloom", "proof yeast", "foamy", "activate", "dissolve"],
+        "body": "Stir yeast into warm liquid, often with a pinch of sugar, and wait 5 to 10 minutes. It should look foamy. If nothing happens, the yeast is dead or the liquid was too hot."
+      },
+      {
+        "id": "instant-vs-active-dry",
+        "term": "Instant vs active dry yeast",
+        "keywords": ["instant yeast", "active dry", "rapid rise", "swap yeast"],
+        "body": "Active dry is usually dissolved in warm liquid first. Instant can be mixed straight into the flour and works a little faster. In most recipes you can swap one for the other in the same amount."
+      }
+    ]
+  },
+  {
+    "section": "Dough",
+    "tips": [
+      {
+        "id": "adding-flour-gradually",
+        "term": "Adding flour a little at a time",
+        "keywords": ["wet dough", "sticky dough", "too much flour", "gradually", "pulls away"],
+        "body": "Flour soaks up liquid differently from bag to bag and day to day, so add the last of it about ¼ cup at a time. Stop once the dough pulls away from the sides of the bowl and feels soft. Too much flour makes dense, dry bread."
+      },
+      {
+        "id": "tacky-vs-sticky",
+        "term": "Tacky vs sticky",
+        "keywords": ["tacky", "sticky", "dough feel"],
+        "body": "Tacky dough clings lightly to a clean finger and then lets go. Sticky dough leaves bits on your finger. Most soft rolls should be tacky."
+      },
+      {
+        "id": "kneading",
+        "term": "Kneading and the windowpane test",
+        "keywords": ["knead", "windowpane", "gluten", "smooth dough", "dough hook"],
+        "body": "Kneading builds gluten, which makes dough stretchy. To check, stretch a small piece thin. If it gets thin enough to see light through before it tears, it's kneaded enough."
+      },
+      {
+        "id": "rising",
+        "term": "Rising (proofing) dough",
+        "keywords": ["rise", "proof", "proofing", "doubled", "first rise", "second rise", "bulk"],
+        "body": "Cover the dough and leave it somewhere warm until it's about doubled. The first rise happens in the bowl and the second after shaping. Timing depends on how warm the room is, so go by how the dough looks, not the clock."
+      },
+      {
+        "id": "finger-test",
+        "term": "Finger (poke) test",
+        "keywords": ["poke test", "finger test", "ready to bake", "overproofed", "underproofed"],
+        "body": "Flour a finger and press it about ½ inch into the dough. If the dent springs back slowly and leaves a small mark, it's ready. If it springs back fast, give it more time. If the dent stays and the dough sinks, it's overproofed."
+      },
+      {
+        "id": "punching-down",
+        "term": "Punching down",
+        "keywords": ["punch down", "deflate", "degas"],
+        "body": "After the first rise, press the dough gently to let out the big air pockets before you shape it. No actual punching needed."
+      }
+    ]
+  },
+  {
+    "section": "Eggs",
+    "tips": [
+      {
+        "id": "egg-wash",
+        "term": "Egg wash",
+        "keywords": ["egg wash", "brush", "shiny", "golden top", "glaze"],
+        "body": "Beat an egg with a splash of water or milk and brush it thinly over dough right before baking. It gives a shiny, golden top. A yolk-only wash browns more; a white-only wash is shinier and paler."
+      },
+      {
+        "id": "tempering-eggs",
+        "term": "Tempering eggs",
+        "keywords": ["temper", "scrambled", "custard", "hot milk"],
+        "body": "Slowly whisk a little of the hot liquid into the eggs to warm them, then whisk that mixture back into the pot. Warming them gently first keeps them from scrambling."
+      },
+      {
+        "id": "separating-eggs",
+        "term": "Separating eggs",
+        "keywords": ["separate", "yolk", "whites"],
+        "body": "Cold eggs separate more easily. Keep every bit of yolk out of the whites, because even a little fat stops them from whipping up."
+      },
+      {
+        "id": "soft-and-stiff-peaks",
+        "term": "Soft peaks and stiff peaks",
+        "keywords": ["peaks", "meringue", "whip", "egg whites", "whipped cream", "cream of tartar"],
+        "body": "Lift the beaters out. At soft peaks the tip flops over; at stiff peaks it stands straight up and looks glossy. Use a clean, grease-free bowl. A little cream of tartar helps whites hold their shape."
+      },
+      {
+        "id": "room-temperature-eggs",
+        "term": "Room-temperature eggs",
+        "keywords": ["room temperature", "warm eggs", "cold eggs"],
+        "body": "Room-temperature eggs mix in more evenly. In a hurry, set whole eggs in a bowl of warm water for 5 to 10 minutes."
+      }
+    ]
+  },
+  {
+    "section": "Butter and sugar",
+    "tips": [
+      {
+        "id": "room-temperature-butter",
+        "term": "Room-temperature (softened) butter",
+        "keywords": ["softened", "soft butter", "room temperature", "65"],
+        "body": "About 65°F: cool to the touch, and your finger leaves a dent without sinking in. If it looks shiny or greasy, it's too warm and cookies will spread."
+      },
+      {
+        "id": "creaming",
+        "term": "Creaming butter and sugar",
+        "keywords": ["cream", "light and fluffy", "beat butter"],
+        "body": "Beat softened butter and sugar until paler in color and fluffy, usually 2 to 3 minutes. This beats in air that helps cakes and cookies rise."
+      },
+      {
+        "id": "brown-butter",
+        "term": "Brown butter",
+        "keywords": ["browned butter", "beurre noisette", "nutty"],
+        "body": "Melt butter over medium heat and keep cooking, swirling often. It foams, then the milk solids turn golden brown and smell nutty. Take it off the heat right away, because it burns fast. A light-colored pan makes the color easy to see. It weighs less after, because the water cooks off."
+      },
+      {
+        "id": "packed-brown-sugar",
+        "term": "Packed brown sugar",
+        "keywords": ["brown sugar", "packed", "measure"],
+        "body": "Press brown sugar firmly into the cup so it holds the cup's shape when you tip it out."
+      }
+    ]
+  },
+  {
+    "section": "Flour and measuring",
+    "tips": [
+      {
+        "id": "spoon-and-level",
+        "term": "Spoon and level",
+        "keywords": ["measure flour", "spooned and leveled", "cups"],
+        "body": "Spoon flour into the measuring cup, then sweep the top flat with a knife. Scooping straight from the bag packs in too much flour."
+      },
+      {
+        "id": "weighing",
+        "term": "Weighing ingredients",
+        "keywords": ["grams", "scale", "weigh", "weight"],
+        "body": "A kitchen scale is more accurate than cups, especially for flour. Set the bowl on the scale, zero it, and add each ingredient by weight."
+      },
+      {
+        "id": "kosher-vs-table-salt",
+        "term": "Kosher vs table salt",
+        "keywords": ["kosher salt", "table salt", "diamond crystal", "morton", "salt"],
+        "body": "Kosher salt has bigger flakes, so a spoonful is less salty than table salt. Use less table salt than a recipe's kosher amount, or weigh it."
+      },
+      {
+        "id": "cooking-flour-custard",
+        "term": "Cooking a flour-thickened pudding",
+        "keywords": ["pudding", "custard", "thicken", "starchy", "boil"],
+        "body": "Once it starts to bubble, keep it at a gentle boil and stir constantly for about 2 to 3 minutes more. That cooks the flour so it thickens fully and doesn't taste starchy."
+      },
+      {
+        "id": "natural-vs-dutch-cocoa",
+        "term": "Natural vs Dutch-process cocoa",
+        "keywords": ["cocoa", "dutch", "natural cocoa", "baking soda"],
+        "body": "Natural cocoa is acidic, so it reacts with baking soda. Dutch-process cocoa has had its acid neutralized. If a recipe leans on baking soda and says natural, don't swap."
+      },
+      {
+        "id": "soda-vs-powder",
+        "term": "Baking soda vs baking powder",
+        "keywords": ["baking soda", "baking powder", "leavening", "rise"],
+        "body": "Baking soda needs an acid in the recipe, like buttermilk, brown sugar or natural cocoa, to make it rise. Baking powder has its own acid built in. They aren't swappable one for one."
+      }
+    ]
+  },
+  {
+    "section": "Swaps and finishing",
+    "tips": [
+      {
+        "id": "buttermilk-swap",
+        "term": "Buttermilk swap",
+        "keywords": ["buttermilk", "substitute", "vinegar", "lemon juice"],
+        "body": "Put 1 tablespoon of vinegar or lemon juice in a cup, add milk to make 1 cup, and let it sit 5 minutes."
+      },
+      {
+        "id": "chilling-dough",
+        "term": "Chilling cookie dough",
+        "keywords": ["chill", "fridge", "spread", "cookie dough"],
+        "body": "Chilling firms up the butter, so cookies spread less and bake up thicker. It also deepens the flavor."
+      },
+      {
+        "id": "toothpick-test",
+        "term": "Toothpick test",
+        "keywords": ["done", "doneness", "cake tester", "clean"],
+        "body": "Poke a toothpick into the center of a cake. It's done when the toothpick comes out clean or with a few moist crumbs, not wet batter."
+      }
+    ]
+  }
+]

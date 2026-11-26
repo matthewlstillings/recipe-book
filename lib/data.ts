@@ -1,7 +1,7 @@
 import 'server-only';
 import fs from 'node:fs';
 import path from 'node:path';
-import type { Category, Grade, Recipe } from './types';
+import type { Category, Grade, Recipe, TipSection } from './types';
 import { parseStep } from './steps';
 
 const GRADES: Grade[] = ['A+', 'A', 'A-', 'B+', 'B', 'B-', 'C+', 'C', 'C-', 'D+', 'D', 'D-', 'F'];
@@ -109,4 +109,25 @@ export function byRating(a: Recipe, b: Recipe): number {
 export function byNewest(a: Recipe, b: Recipe): number {
   const t = (r: Recipe) => (r.added ? Date.parse(r.added) : 0);
   return t(b) - t(a) || a.name.localeCompare(b.name);
+}
+
+let tipsCache: TipSection[] | null = null;
+
+/** Baking tips from content/tips.json (not affected by RECIPE_FIXTURES). */
+export function getTips(): TipSection[] {
+  if (tipsCache) return tipsCache;
+  const file = 'tips.json';
+  const sections = JSON.parse(fs.readFileSync(path.join(process.cwd(), 'content', file), 'utf8')) as TipSection[];
+  const ids = new Set<string>();
+  for (const s of sections) {
+    if (!s.section || !Array.isArray(s.tips) || !s.tips.length) fail(file, `section "${s.section}" needs a name and tips`);
+    for (const t of s.tips) {
+      if (!SLUG.test(t.id) || ids.has(t.id)) fail(file, `bad or repeated id "${t.id}"`);
+      ids.add(t.id);
+      if (!t.term || !t.body) fail(file, `tip "${t.id}" needs a term and a body`);
+      if (!Array.isArray(t.keywords)) fail(file, `tip "${t.id}" needs a keywords list`);
+    }
+  }
+  tipsCache = sections;
+  return sections;
 }
